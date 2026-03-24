@@ -5,6 +5,7 @@
   "description": "Bidirectional ERDSL web editor foundation.",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://jonnathanriquelmo.github.io/ertext-web",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",

@@ -3,5 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ertext-web/'
+  base: '/ertext-web/',
+  build: {
+    outDir: 'dist',
+  }
 });
