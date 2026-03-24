@@ -1,0 +1,3 @@
+- [x] O Esquema Lógico é renderizado no painel de saídas usando componentes React visuais (tabelas desenhadas com HTML/CSS, destacando PK/FK), substituindo a visualização em JSON bruto.
+- [x] O `DiagramCanvas` consegue renderizar e rotear visualmente os relacionamentos que possuem a anotação `@generateOccurrenceDiagram` usando a representação de losango.
+- [x] O parser emite corretamente alertas ou erros semânticos de modelagem (por exemplo, detectando e avisando quando uma entidade não possui atributo identificador `isIdentifier`).

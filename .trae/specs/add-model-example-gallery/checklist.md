@@ -1,0 +1,19 @@
+- [x] Template gallery is clearly accessible from the main interface
+- [x] User can select a template and load it with a single action
+- [x] Loaded template populates the textual DSL editor correctly
+- [x] Loaded template appears correctly in the graphical diagram view
+- [x] Generated outputs refresh automatically after template loading
+- [x] Shipped templates include university courses, social network, and artificial intelligence themes
+- [x] Every shipped template passes parsing and semantic validation checks
+- [x] Default generation targets complete successfully for every shipped template
+- [x] End-to-end tests cover template selection and full-view synchronization
+- [x] Lint, tests, and build pass without regressions
+- [x] Generated diagram for University Courses template is semantically correct
+- [x] Generated diagram for Social Network template is semantically correct
+- [x] Generated diagram for Artificial Intelligence template is semantically correct
+- [x] Relationship cardinalities in projected diagrams match each template DSL
+- [x] All supported DSL features from `.trae/Features.md` rows 13-32 are represented by shipped templates
+- [x] Relationship feature set is fully covered by templates (binary, ternary, self, attributes, cardinalities)
+- [x] Generalization variants are covered by templates according to supported language semantics
+- [x] Supported generation targets are covered by template validations (diagram, logical model, MySQL, PostgreSQL)
+- [x] Coverage tests fail when a supported feature is removed from all templates

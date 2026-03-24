@@ -1,0 +1,16 @@
+- [x] Canvas permite arrastar e reposicionar elementos de forma estável
+- [x] Usuário consegue criar entidades visualmente no diagrama
+- [x] Duplo clique em área vazia do canvas cria entidade
+- [x] Usuário consegue conectar entidades para criar relacionamentos
+- [x] Duplo clique sequencial em duas entidades cria relacionamento
+- [x] Cardinalidades podem ser configuradas visualmente nas conexões
+- [x] Atributos de relacionamento podem ser editados pela interface gráfica
+- [x] Edição no diagrama gera comandos semânticos e atualiza AST corretamente
+- [x] DSL é regenerada de forma consistente após alterações visuais
+- [x] Representação visual diferencia entidades, relacionamentos e cardinalidades
+- [x] Feedback visual de seleção e edição é claro e imediato
+- [x] Interface é responsiva em desktop, tablet e mobile
+- [x] Interações por toque permanecem utilizáveis em telas menores
+- [x] Testes cobrem fluxos principais de manipulação visual e sincronização
+- [x] Dicas da toolbar descrevem os novos fluxos de duplo clique
+- [x] Lint, testes automatizados e build executam sem falhas

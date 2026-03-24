@@ -1,0 +1,17 @@
+- [x] Project structure enforces modular boundaries and separation of concerns
+- [x] ERDSL grammar supports required blocks, options, comments, and termination rules
+- [x] Parser uses structured grammar tooling without regex-based parsing
+- [x] AST is the only source of truth for text, diagram, logical schema, and SQL outputs
+- [x] Text edits update diagram and outputs through AST transactions
+- [x] Diagram edits update DSL and outputs through AST transactions
+- [x] Synchronization pipeline rejects stale updates and preserves consistency under continuous edits
+- [x] Entities support required attribute types and identifier semantics
+- [x] Relationships support binary, ternary, self-reference, attributes, and required cardinalities
+- [x] Specialization/generalization modes are supported and represented consistently
+- [x] Conceptual model transforms deterministically to logical schema
+- [x] SQL generation works for MySQL and PostgreSQL from the same AST
+- [x] `Generate` option is optional and defaults to `All`
+- [x] Monaco integration provides syntax highlighting and line/column diagnostics
+- [x] Undo/redo works across mixed text and diagram operations
+- [x] Diagram export to SVG and PNG works correctly
+- [x] End-to-end example demonstrates full bidirectional synchronization and generation outputs

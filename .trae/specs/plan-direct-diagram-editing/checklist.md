@@ -1,0 +1,24 @@
+- [x] Existe diagnóstico claro de viabilidade para edição direta por clique no diagrama
+- [x] Existe definição de fluxo para renomear entidades diretamente no canvas
+- [x] Existe definição de fluxo para renomear relacionamentos diretamente no canvas
+- [x] Existe definição de fluxo para editar atributos no canvas com validação
+- [x] Existe definição de fluxo para criar entidades por clique no canvas
+- [x] Existe definição de fluxo para criar relacionamentos por clique no canvas
+- [x] Regras de validação de entrada e mensagens de erro estão especificadas
+- [x] Estados visuais de edição, confirmação, cancelamento e erro estão especificados
+- [x] Roadmap incremental possui fases, dependências e critérios de aceite
+- [x] Estratégia de testes cobre unitário, integração e regressão de UX
+- [x] Riscos e mitigação estão descritos no plano final
+- [x] Duplo clique em área vazia do canvas cria entidade sem usar botão
+- [x] Duplo clique sequencial em entidades cria relacionamento sem usar botão
+- [x] Dicas da toolbar explicam os novos fluxos de clique
+- [x] Testes do DiagramCanvas cobrem os novos fluxos de clique
+- [x] Lint, testes direcionados e build validam a entrega
+- [x] Duplo clique no título da entidade ativa renomeação inline e sincroniza DSL
+- [x] Duplo clique no relacionamento ativa renomeação e sincroniza DSL
+- [x] Testes do diagramEditor cobrem renomeação de entidade e relacionamento
+- [x] Botão Auto-organizar recalcula o layout do canvas sem quebrar as interações existentes
+- [x] Controles de zoom (+, -, reset) exibem feedback claro e respeitam limites mínimos/máximos
+- [x] Estado de zoom permanece persistido entre sessões com fallback seguro para valores inválidos
+- [x] Arraste de entidades permanece preciso mesmo com zoom aplicado
+- [x] Testes do DiagramCanvas cobrem auto-organização e limites de zoom

@@ -1,0 +1,15 @@
+- [x] Binary relationships are verified across DSL, diagram, logical model, and SQL outputs
+- [x] Ternary relationships are verified across DSL, diagram, logical model, and SQL outputs
+- [x] Multiple relationships between the same entities remain distinct across all output layers
+- [x] Self-relationships are verified across DSL, diagram, logical model, and SQL outputs
+- [x] Generalization between entities is verified across DSL, diagram, logical model, and SQL outputs
+- [x] Shipped templates collectively cover all required advanced modeling constructs
+- [x] Each shipped template uses at least one advanced modeling construct
+- [x] Template models remain semantically valid after updates
+- [x] Diagram expectations for advanced constructs are asserted by automated tests
+- [x] Logical model expectations for advanced constructs are asserted by automated tests
+- [x] MySQL and PostgreSQL outputs for advanced constructs are asserted by automated tests
+- [x] Lint and targeted tests pass without regressions
+- [x] Diagram canvas visibly renders self-relationship loops
+- [x] Diagram canvas visibly renders generalization connectors between entities
+- [x] Automated tests cover self-loop and generalization connector rendering behavior
