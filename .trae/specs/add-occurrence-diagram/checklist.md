@@ -1,5 +1,0 @@
-- [x] A gramática da DSL aceita `Generate OccurrenceDiagram;` sem erros.
-- [x] O parser e o AST processam e representam `OccurrenceDiagram` como um target de geração.
-- [x] A lógica de geração mocka instâncias de entidades para cada relacionamento e cria links entre essas instâncias com base na cardinalidade mínima e máxima.
-- [x] O componente `OccurrenceDiagramViewer` renderiza um ou mais SVGs visuais no painel de saídas.
-- [x] Testes unitários atestam que as regras de cardinalidade foram seguidas na criação das instâncias mockadas.

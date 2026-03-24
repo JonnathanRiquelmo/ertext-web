@@ -1,8 +1,0 @@
-- [x] O arquivo `styles.css` foi refatorado para utilizar Variáveis CSS (`--var-name`) para cores, espaçamentos e bordas.
-- [x] O visual geral foi atualizado para uma paleta moderna e profissional, com melhor legibilidade.
-- [x] Botões, inputs e elementos interativos possuem feedback visual de estado (`:hover`, `:focus-visible`) e transições suaves.
-- [x] Os painéis (ferramentas, editor, diagrama) possuem bordas arredondadas e sombras (`box-shadow`) que conferem profundidade à interface.
-- [x] O layout continua responsivo, com adaptações adequadas em telas menores (mobile/tablet).
-- [x] A tela de Início (`StartupTemplatePage`) exibe o novo estilo de forma elegante, mantendo o apelo educacional.
-- [x] A aplicação foi testada visualmente e as funcionalidades interativas (abrir/fechar folds, interagir com botões) estão perfeitas.
-- [x] Todos os testes automatizados existentes continuam passando com sucesso.
